@@ -1,11 +1,18 @@
 import { Fragment, useState } from 'react'
 import { Combobox, Transition } from '@headlessui/react'
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid'
-import { people } from '@/pages/other_pages/Code_share/data'
 
-// const people = [
-//   { id: 1, name: '目前暫無', href:'/other_pages/code_share' },
-// ]
+interface List{
+  id: number;
+  title: string; //格式 : OJ - ID - Name
+  author?: string
+  href: string;
+}
+
+const people : List[] = [
+  { id: 1, title: 'None', href:'/other_pages/code_share' },
+  { id: 2, title: 'UVa - 10071 - 熊', href:'https://hackmd.io/@LazyBear-1/uva10071' },
+]
 
 export default function Example() {
   const [selected, setSelected] = useState(people[0])

@@ -1,8 +1,6 @@
 //https://ui.shadcn.com/docs/components/table
 import * as React from "react"
 import { useRef } from 'react';
-import { problem } from '@/pages/other_pages/Code_share/data'
-
 import {
   Table,
   TableBody,
@@ -13,6 +11,18 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table"
+
+
+interface Problem{
+  id: number;
+  title: string;
+  OJ: string;
+  href: string;
+}
+
+const problem : Problem[] = [
+  { id: 10071, title: 'Back to High School Physics', OJ:'UVa', href:'https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1012' },
+]
 
 export default function Home() {
   return (
