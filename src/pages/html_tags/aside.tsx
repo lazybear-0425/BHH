@@ -19,6 +19,10 @@ export default function Home() {
                 className="rounded-md border"
             />
             </div>
+            <br />
+            <div>
+                <Image src="/run.png" alt="Your Avatar" width={200} height={200} /><br />
+            </div>
         </aside>
     )
 }
