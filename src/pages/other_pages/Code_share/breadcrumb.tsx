@@ -26,7 +26,7 @@ import {
                 <Slash />
                 </BreadcrumbSeparator>
                 <BreadcrumbItem>
-                <BreadcrumbLink href="/other_pages">Code_Share</BreadcrumbLink>
+                <BreadcrumbLink href="/other_pages/code_share">Code_Share</BreadcrumbLink>
                 </BreadcrumbItem>
             </BreadcrumbList>
             </Breadcrumb>
