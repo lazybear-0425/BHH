@@ -17,6 +17,8 @@ export default function Home() {
           <div>提醒有CPE、ITSA等檢定</div>
           <Separator orientation="vertical" />
           <div>每周一題程式題目</div>
+          <Separator orientation="vertical" />
+          <div>學習Pytorch</div>
         </div>
       </div>
   )
