@@ -29,9 +29,9 @@ const invoices : announce[] = [
     description: '放假前開會討論活動規劃，目前到暑假前暫無活動'
   },
   {
-    date: '2024/04/29',
-    title: '加入LINE群組',
-    description: '請在加入時說明你是誰，方便身分查證'
+    date: '2024/04/30',
+    title: '五月份ITSA開始報名',
+    description: '報名時間 : 2024/04/29 12:00至202405/13 23:59止'
   },
 ]
 
