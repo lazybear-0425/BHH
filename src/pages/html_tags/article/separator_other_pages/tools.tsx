@@ -17,6 +17,8 @@ export default function Home() {
           <div><a href="https://github.com/">GitHub</a></div>
           <Separator orientation="vertical" />
           <div><a href="https://vjudge.net/">VJudge</a></div>
+          <Separator orientation="vertical" />
+          <div><a href="https://forms.gle/iyRUPXjdrM7vWgAP8">程式碼分享-Google表單</a></div>
         </div>
       </div>
   )
