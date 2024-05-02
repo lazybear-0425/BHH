@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <article style={{width:'70%',marginLeft: '20px'}}>
       <p style={{fontSize:'30px'}}>
-        小組核心事項
+        📌小組核心事項
       </p>
       <br/>
       <Tool />

@@ -40,7 +40,7 @@ export default function Home() {
     <article style={{width:'70%',marginLeft: '20px'}}>
       <div>
         <h1 style={{fontSize:'30px'}}>
-          事情宣布
+          📢事情宣布
         </h1>
       </div>
       <Table>
