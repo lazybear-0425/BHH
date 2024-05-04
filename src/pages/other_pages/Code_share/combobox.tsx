@@ -8,10 +8,11 @@ interface List{
   author?: string
   href: string;
 }
-
+//{ id: 3, title: '', href:'' },
 const people : List[] = [
   { id: 1, title: 'None', href:'/other_pages/code_share' },
   { id: 2, title: 'UVa - 10071 - 熊', href:'https://hackmd.io/@LazyBear-1/uva10071' },
+  { id: 3, title: 'UVa - 336 - 熊', href:'https://hackmd.io/@LazyBear-1/B1VsJhmf0' },
 ]
 
 export default function Example() {

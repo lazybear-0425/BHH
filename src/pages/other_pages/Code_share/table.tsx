@@ -19,9 +19,10 @@ interface Problem{
   OJ: string;
   href: string;
 }
-
+//{ id: , title: '', OJ:'UVa', href:'' },
 const problem : Problem[] = [
   { id: 10071, title: 'Back to High School Physics', OJ:'UVa', href:'https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1012' },
+  { id: 336, title: 'A Node Too Far', OJ:'UVa', href:'https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=272' },
 ]
 
 export default function Home() {

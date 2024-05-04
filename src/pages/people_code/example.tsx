@@ -17,8 +17,7 @@ export default function Home() {
   return (
     <div >
       <Nav />
-      
-      
+           
       <article style={{width:'70%',marginLeft: '20px',marginTop:'30px'}}>
           <div style={{fontSize:'35px'}}>
                   UVa - 1 - I want sleep<br />
