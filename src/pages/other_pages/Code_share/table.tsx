@@ -23,6 +23,7 @@ interface Problem{
 const problem : Problem[] = [
   { id: 10071, title: 'Back to High School Physics', OJ:'UVa', href:'https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1012' },
   { id: 336, title: 'A Node Too Far', OJ:'UVa', href:'https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=272' },
+  { id: 327, title: 'Evaluating Simple C Expressions', OJ:'UVa', href:'https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=263' },
 ]
 
 export default function Home() {
