@@ -32,7 +32,7 @@ export default function Home() {
                   <AccordionContent>
                   <ul>
                       <li>作者 : 匿名</li>
-                      <li>題目連結 : <a target="_blank" href={proplem}>LINK</a></li>
+                      <li>題目連結 : <a target="_blank" href={proplem} className="text-sky-700">LINK</a></li>
                   </ul>
                   </AccordionContent>
               </AccordionItem>
@@ -66,7 +66,7 @@ export default function Home() {
               <AccordionItem value="item-5">
                   <AccordionTrigger>📝程式碼分享</AccordionTrigger>
                   <AccordionContent>
-                    <a href={best_sol} target="_blank">LINK</a>
+                    <a href={best_sol} target="_blank" className="text-sky-700">LINK</a>
                   </AccordionContent>
               </AccordionItem>
               </Accordion>
