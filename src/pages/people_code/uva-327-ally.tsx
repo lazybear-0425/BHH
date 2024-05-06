@@ -15,6 +15,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 const proplem : string = 'https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=263';
 const best_sol : string = 'https://github.com/morris821028/UVa/blob/master/volume003/327%20-%20Evaluating%20Simple%20C%20Expressions.cpp';
+const code : string = 'https://pastebin.com/dGzWbRpv';
 
 export default function Home() {
   return (
@@ -66,7 +67,7 @@ export default function Home() {
               <AccordionItem value="item-5">
                   <AccordionTrigger>📝程式碼分享</AccordionTrigger>
                   <AccordionContent>
-                    <a href={best_sol} target="_blank" className="text-sky-700">LINK</a>
+                    <a href={code} target="_blank" className="text-sky-700">LINK</a>
                   </AccordionContent>
               </AccordionItem>
               </Accordion>
