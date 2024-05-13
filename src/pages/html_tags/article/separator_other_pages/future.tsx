@@ -18,7 +18,7 @@ export default function Home() {
           <Separator orientation="vertical" />
           <div>每周一題程式題目</div>
           <Separator orientation="vertical" />
-          <div>學習Pytorch</div>
+          <div>學習OpenCV</div>
         </div>
       </div>
   )
