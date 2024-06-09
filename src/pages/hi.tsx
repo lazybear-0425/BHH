@@ -1,20 +1,38 @@
 import Image from "next/image";
+import Link from 'next/link';
 import { Inter } from "next/font/google";
-import type { Metadata } from 'next'
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <header className="py-4 bg-gray-800 text-white">
-    <div className="px-6 py-2 flex flex-row justify-between container mx-auto">
-        <h3>hello</h3>
-        <div >
-            <a href='' className="px-8 py-2 text-medium bg-blue-600 text-white border border-black rounded hover:bg-transparent hover:text-black">Button 1</a>        
-            <a href='' className="px-8 py-2 text-medium bg-blue-600 text-white border border-black rounded hover:bg-transparent hover:text-black">Button 2</a>
-            <a href='' className="px-8 py-2 text-medium bg-blue-600 text-white border border-black rounded hover:bg-transparent hover:text-black">Button 3</a>
-        </div>
+    <div className="container mx-auto mt-10">
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-3">
+        <Link href="/">
+          <div className="flex h-44 w-full items-center rounded-3xl border-4 border-black bg-white p-5 shadow-[4px_4px_0_0_#000] hover:bg-yellow-200">
+            <div>
+              <p className="text-2xl font-bold">My Title</p>
+              <p className="mt-4 text-lg font-medium leading-relaxed">Description</p>
+            </div>
+          </div>
+        </Link>
+        <Link href="/">
+          <div className="flex h-44 w-full items-center rounded-3xl border-4 border-black bg-white p-5 shadow-[4px_4px_0_0_#000] hover:bg-yellow-200">
+            <div>
+              <p className="text-2xl font-bold">My Title</p>
+              <p className="mt-4 text-lg font-medium leading-relaxed">Description</p>
+            </div>
+          </div>
+        </Link>
+        <Link href="/">
+          <div className="flex h-44 w-full items-center rounded-3xl border-4 border-black bg-white p-5 shadow-[4px_4px_0_0_#000] hover:bg-yellow-200">
+            <div>
+              <p className="text-2xl font-bold">My Title</p>
+              <p className="mt-4 text-lg font-medium leading-relaxed">Description</p>
+            </div>
+          </div>
+        </Link>
+      </div>
     </div>
-    </header>
   );
 }

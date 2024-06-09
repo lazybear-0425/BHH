@@ -33,6 +33,16 @@ const invoices : announce[] = [
     title: '五月份ITSA開始報名',
     description: '報名時間 : 2024/04/29 12:00至202405/13 23:59止'
   },
+  {
+    date: '2024/06/04',
+    title: '六月份ITSA開始報名',
+    description: '報名時間 : 2024/06/03 12:00至2024/06/17 23:59止'
+  },
+  {
+    date: '2024/06/09',
+    title: '預期小組活動-工作分配',
+    description: '討論暑期活動、工作分配、Python基礎教學(暫定)'
+  },
 ]
 
 export default function Home() {
