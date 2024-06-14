@@ -39,8 +39,8 @@ const invoices : announce[] = [
     description: '報名時間 : 2024/06/03 12:00至2024/06/17 23:59止'
   },
   {
-    date: '2024/06/09',
-    title: '預期小組活動-工作分配',
+    date: '2024/06/15',
+    title: '小組活動-工作分配',
     description: '討論暑期活動、工作分配、Python基礎教學(暫定)'
   },
 ]
