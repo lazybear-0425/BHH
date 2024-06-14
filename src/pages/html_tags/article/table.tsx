@@ -43,6 +43,11 @@ const invoices : announce[] = [
     title: '小組活動-工作分配',
     description: '討論暑期活動、工作分配、Python基礎教學(暫定)'
   },
+  {
+    date: '2024/06/??',
+    title: '預期小組活動-Python基礎教學',
+    description: '教datatype、if-else、loop等'
+  },
 ]
 
 export default function Home() {
