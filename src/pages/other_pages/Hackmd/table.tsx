@@ -26,6 +26,12 @@ const invoices : announce[] = [
     href: 'https://hackmd.io/@LazyBear0425/git1',
     author: '熊'
   },
+  {
+    title: '簡易python教學',
+    description: 'DataType、if-else、loop、module',
+    href: 'https://hackmd.io/@LazyBear-1/ByuuW1OH0',
+    author: '熊'
+  },
 ]
 
 export default function Home() {
